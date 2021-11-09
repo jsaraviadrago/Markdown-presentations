@@ -1,0 +1,195 @@
+---
+title: "Un ojo a la construcción y análisis de cuestionarios"
+author: Juan Carlos Saravia
+output: xaringan::moon_reader
+---
+# Objetivos
+
+- Revisar brevemente sobre tipos de cuestionarios
+
+- Delimitar la cantidad de preguntas que se deben aplicar en un cuestionario
+
+- Mencionar el balance entre preguntas abiertas y cerradas. 
+
+- Mencionar casos de uso sobre las herramientas que hay que utilizar.
+
+- Mostrar ejemplos de análisis estadísticos con cuestionarios
+
+---
+class: left
+#Un poco de teoría
+
+## Tipos de cuestionarios
+
+- Respuestas dicotómicas: preguntas de sí y no. 
+
+- Respuestas politómicas: preguntas de opciones múltiples y escala Likert. 
+
+- Preguntas abiertas: texto abierto
+
+- Otras escalas: Thurstone, Gutmann, etc. 
+
+--
+
+## Ya, muy interesante pero cuál escala debo usar...
+--
+
+## Cuántas preguntas debo tener y cuántas abiertas?
+--
+
+
+## Qué herramientas debo utilizar?
+--
+
+
+---
+# Cuál debo usar? Cuántas preguntas debo tener y cuántas abiertas?
+
+--
+La respuesta es **depende** del objetivo del relevamiento de la información. 
+
+--
+
+
+.center[<img src="images.jpeg" style="width:20%; margin-right: 20px" fig.align="center">]
+--
+
+- Sobre la extensión, depende de la complejidad de las preguntas.
+
+--
+
+- Sobre las **preguntas abiertas**, las menos posibles a menos que se pueden categorizar con especialistas en lugar de algoritmos. 
+
+--
+
+- Si ponemos un número mágico serán **15 preguntas** por cuestionario. Un número no mágico deben ser **3 preguntas** por constructo. 
+
+--
+
+---
+
+# Qué herramientas debo utilizar?
+
+--
+
+.pull-left[<img src="cuestionarios.jpg" style="width:70%; margin-right: 10px">
+
+
+Cuestionarios de **preguntas cerradas** cara a cara o teléfono sobretodo si es más dificil que la persona entienda el cuestionario] 
+
+--
+
+.pull-right[<img src="conversarg.png" style="width:85%; margin-right: 10px">
+
+
+Aplicaciones con **google forms** o **nitro** siempre y cuando sea un grupo etareo donde la conectividad no sea un problema]
+
+--
+
+
+
+---
+# Observaciones
+
+Evitar las escalas que tiene demasiadas opciones de respuesta porque más confunde que lo que aporta. 
+
+No hay una fórmula mágica en la cantidad de opciones de respuesta que tienes que tener pero 5 opciones o más puede ser algo saludable. Eso siempre dependerá de la **complejidad de las preguntas**.  
+
+Por el amor a Sarita Colonia nunca utilizar negaciones cuando se formulen preguntas. Genera demasiada confusión en los participantes. 
+
+
+---
+class: inverse, center, middle
+
+--
+#Hasta ahí...
+
+--
+# Preguntas?
+--
+
+---
+# Teoría sobre psicometría
+
+--
+
+.pull-left[##Teoría clásica de los test
+
+Está basado en los puntajes que se pueden obtener de la prueba y que esa medición será un representación exacta de la característica de la persona. **Aplicaciones:** casi cualquier cuestionario. ] 
+
+--
+
+.pull-right[##Teoría respuesta al ítem
+
+Está basado no solo en los puntajes, sino también en el peso que tienen los ítems y el puntaje final de la persona se deriva de la relación de ambos. **Aplicaciones:** en realidad casi cualquier cuestionario pero primordialmente en el ámbito educativo. ]
+
+
+Solo para este caso haremos una aplicación de teoría clásica de los tests. 
+
+--
+
+---
+# Buenas prácticas
+
+##Todo cuestionario debería tener lo siguiente:
+
+1. **Un objetivo:** por qué diablos se está haciendo el cuestionario?
+
+2. **Una definición operacional:** qué rayos mide el cuestionario?
+
+---
+#Ejemplo: escala sobre estrés 
+
+## Descripción
+
+Esta prueba revisa la capacidad visual, textual y velocidad de las personas. 
+
+Tiene una extensión de 9 preguntas y opciones de respuesta de 1 al 5. 
+
+La idea es que a mayor puntaje mayor puntaje la persona tiene más capacidad visual, textual y mayor velocidad para responder. 
+
+---
+# Código que se utilizó 
+
+```{r setup, echo=TRUE}
+library(lavaan)
+
+HS.model <- ' visual  =~ x1 + x2 + x3
+              textual =~ x4 + x5 + x6
+              speed   =~ x7 + x8 + x9 '
+
+fit <- lavaan(HS.model, data=HolzingerSwineford1939,
+              auto.var=TRUE, auto.fix.first=TRUE,
+              auto.cov.lv.x=TRUE)
+summary(fit, fit.measures=TRUE)
+
+
+```
+
+
+
+---
+
+# Modelo final
+
+```{r tree, echo=FALSE, message=FALSE, warning=FALSE}
+library(semPlot)
+semPaths(fit,"model","stand",style="LISREL",residuals = T,layout = "tree2",
+         rotation=1,
+         edge.color="black", 
+         edge.label.cex=1.05,
+         mar=c(10,2,5,1),
+         color = list(lat = rgb(245, 253, 118, maxColorValue = 255)))
+#Note that the `echo = FALSE` parameter was added to the code chunk to #prevent printing of the R code that generated the plot.
+#
+```
+---
+class: inverse, center, middle
+
+--
+#Nuevamente...
+
+--
+# Preguntas?
+--
+---
