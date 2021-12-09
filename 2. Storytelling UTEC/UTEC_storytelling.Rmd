@@ -128,4 +128,14 @@ ggplot(data_futbol_var, aes(x = Partidos)) +
 ---
 # Preguntas?
 .pull-center[<img src="Preguntas.jpg" style="width:100%; margin-right: 5px">]
+---
+# Contactos 
+
+### [Linkedin](https://www.linkedin.com/in/jcsaraviadrago/)
+
+### [Blog](https://matematicamenteposible.net)
+
+### [Webpage](https://jsaraviadrago.com)
+
+
 
