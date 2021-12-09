@@ -23,17 +23,88 @@ class: center, middle, inverse, title-slide
 
 - Para poder tomar decisiones
 
-- 
+- Para poder hacer que los insights y la data den valor al negocio
 
 ---
-class: left
-#Un poco de teoría
+# Secuencias de una historia
 
-## Tipos de cuestionarios
+- Introducción, cuerpo y conclusión
 
-- Respuestas dicotómicas: preguntas de sí y no. 
+- Lógica inductiva
 
---
+- Lógica deductiva
+
+---
+# Retos de contar una historia con datos
+
+- Poco tiempo para presentar  
+
+- Procesamiento de la información de los stakeholders
+
+
+---
+
+# Ejemplo 1
+
+
+```r
+library(ggplot2)
+library(dplyr)
+```
+
+```
+## 
+## Attaching package: 'dplyr'
+```
+
+```
+## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+```
+
+```
+## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+```
+
+```r
+# Cargar data
+data_futbol &lt;- read.csv2("/Users/home/Documents/MP blog 2021/Data/Eliminatorias/CONMEBOL/Data eliminatorias historico/BD_eliminatorias_98_2022.csv", sep = ",")
+
+
+# Extraer columnas necesarias
+data_futbol_var &lt;- data_futbol |&gt; 
+  select(Partidos, Entrenador_1998,Entrenador_2002,Entrenador_2006,Entrenador_2010,
+         Entrenador_2014,Entrenador_2018,Entrenador_2022,Puntos_98,Puntos_2002,Puntos_2006,Puntos_2010,Puntos_2014,
+         Puntos_2018,Puntos_2022)
+
+ggplot(data_futbol_var, aes(x = Partidos)) +
+  geom_line(aes(y =Puntos_98, colour = "red")) +
+  geom_line(aes(y=Puntos_2002, colour = "blue"))+
+  geom_line(aes(y=Puntos_2006, colour = "green"))+
+  geom_line(aes(y=Puntos_2010, colour = "orange")) +
+  geom_line(aes(y=Puntos_2014, colour = "purple")) +
+  geom_line(aes(y=Puntos_2018, colour = "grey")) +
+  geom_line(aes(y=Puntos_2022, colour = "pink")) 
+```
+
+```
+## Warning: Removed 4 row(s) containing missing values (geom_path).
+```
+
+![](UTEC_storytelling_files/figure-html/example1-1.png)&lt;!-- --&gt;
+
+---
+
+# Ejemplo 2
+
+
+
+
+
+---
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
