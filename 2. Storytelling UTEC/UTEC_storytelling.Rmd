@@ -123,12 +123,12 @@ ej2 <- ggplot(data_futbol_var, aes(x = Partidos)) +
   theme(panel.background = element_blank(),legend.title = element_blank()) +
   ggtitle("Peru tiene 17 puntos en las eliminatorias 2022 casi la misma cantidad de puntos que en la del 2018 cuando clasificó")
 
-ggsave("/Users/home/Markdown-presentations/2. Storytelling UTEC/Example_2.png", plot =ej2, width = 12, height = 5, limitsize = F)
+#ggsave("/Users/home/Markdown-presentations/2. Storytelling UTEC/Example_2.png", #plot =ej2, width = 12, height = 5, limitsize = F)
 
 
 ```
 
-
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Example_2.png" style="width:100%; margin-right: 5px">]
 ---
 # Preguntas?
 .pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Preguntas.jpg" style="width:100%; margin-right: 5px">]
