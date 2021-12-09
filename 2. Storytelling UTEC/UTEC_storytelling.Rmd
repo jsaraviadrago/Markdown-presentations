@@ -134,7 +134,7 @@ ggplot(data_futbol_var, aes(x = Partidos)) +
 
 ### [Linkedin: CV](https://www.linkedin.com/in/jcsaraviadrago/)
 
-### [Blog: Matematicamente posible](https://matematicamenteposible.net)
+### [Blog: Matemáticamente posible](https://matematicamenteposible.net)
 
 ### [Webpage: Portafolio y proyectos](https://jsaraviadrago.com)
 
