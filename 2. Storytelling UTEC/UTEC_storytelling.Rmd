@@ -2,7 +2,12 @@
 title: "UTEC storytelling"
 author: Juan Carlos Saravia
 output: xaringan::moon_reader
+
 ---
+.pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+
+
 # Por qué es importante el storytelling?
 
 - Para poder hacer llegar el mensaje
@@ -12,6 +17,9 @@ output: xaringan::moon_reader
 - Para poder hacer que los insights y la data den valor al negocio
 
 ---
+
+.pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
 # Secuencias de una historia
 
 - Introducción, cuerpo y conclusión
@@ -21,14 +29,29 @@ output: xaringan::moon_reader
 - Lógica deductiva
 
 ---
+.pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
 # Retos de contar una historia con datos
 
 - Poco tiempo para presentar  
 
-- Procesamiento de la información de los stakeholders
+- Procesamiento de la información de los stakeholders (Estructura de pirámide)
 
+- Mensaje poco claro
 
 ---
+.pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+# Trucos para visualizar
+
+- Efecto de primacía y resencia
+
+- Lectura de izquierda a derecha
+
+- Decir el mensaje pricincipal primero
+
+---
+.pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
 # Ejemplo 1: Resultados de Perú en eliminatorias
 
@@ -70,8 +93,9 @@ ggplot(data_futbol_var, aes(x = Partidos)) +
 ```
 
 ---
+.pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
-# Ejemplo 2:  Perú ha estado muy cerca de clasificar cuando ha tenido por lo menos 17 puntos faltando 4 partidos. 
+## Ejemplo 2:  Perú ha estado muy cerca de clasificar cuando ha tenido por lo menos 17 puntos faltando 4 partidos 
 
 ```{r example2, echo=FALSE, message=FALSE, warning=FALSE,  fig.width=12,fig.height=5}
 
@@ -94,7 +118,7 @@ ggplot(data_futbol_var, aes(x = Partidos)) +
 
 
 ```
-
-
-
 ---
+# Preguntas?
+.pull-center[<img src="Preguntas.jpg" style="width:100%; margin-right: 5px">]
+
