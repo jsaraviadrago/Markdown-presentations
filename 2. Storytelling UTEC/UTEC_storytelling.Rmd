@@ -99,7 +99,7 @@ ej1 <- ggplot(data_futbol_var, aes(x = Partidos)) +
 
 ```
 
-.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Preguntas.jpg" style="width:100%; margin-right: 5px">]
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Example_1.png" style="width:100%; margin-right: 5px">]
 
 ---
 .pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
@@ -127,6 +127,8 @@ ggsave("/Users/home/Markdown-presentations/2. Storytelling UTEC/Example_2.png", 
 
 
 ```
+
+
 ---
 # Preguntas?
 .pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Preguntas.jpg" style="width:100%; margin-right: 5px">]
