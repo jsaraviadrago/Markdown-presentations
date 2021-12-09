@@ -45,7 +45,7 @@ output: xaringan::moon_reader
 - Mensaje poco claro
 
 ---
-.pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
 # La forma de cómo presentar las láminas son un complemento para aterrizar el mensaje 
 
