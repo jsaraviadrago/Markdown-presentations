@@ -30,9 +30,9 @@ output: xaringan::moon_reader
 
 ---
 
-# Ejemplo 1
+# Ejemplo 1: Resultados de Perú en eliminatorias
 
-```{r example1, echo=TRUE}
+```{r example1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12,fig.height=5}
 
 library(ggplot2)
 library(dplyr)
@@ -40,22 +40,27 @@ library(dplyr)
 # Cargar data
 data_futbol <- read.csv2("/Users/home/Documents/MP blog 2021/Data/Eliminatorias/CONMEBOL/Data eliminatorias historico/BD_eliminatorias_98_2022.csv", sep = ",")
 
-
 # Extraer columnas necesarias
 data_futbol_var <- data_futbol |> 
   select(Partidos, Entrenador_1998,Entrenador_2002,Entrenador_2006,Entrenador_2010,
          Entrenador_2014,Entrenador_2018,Entrenador_2022,Puntos_98,Puntos_2002,Puntos_2006,Puntos_2010,Puntos_2014,
          Puntos_2018,Puntos_2022)
 
-ggplot(data_futbol_var, aes(x = Partidos)) +
-  geom_line(aes(y =Puntos_98, colour = "red")) +
-  geom_line(aes(y=Puntos_2002, colour = "blue"))+
-  geom_line(aes(y=Puntos_2006, colour = "green"))+
-  geom_line(aes(y=Puntos_2010, colour = "orange")) +
-  geom_line(aes(y=Puntos_2014, colour = "purple")) +
-  geom_line(aes(y=Puntos_2018, colour = "grey")) +
-  geom_line(aes(y=Puntos_2022, colour = "pink")) 
+knitr::opts_chunk$set(fig.width=unit(12,"cm"), fig.height=unit(5,"cm"))
 
+ggplot(data_futbol_var, aes(x = Partidos)) +
+  geom_line(aes(y =Puntos_98, colour = "1998")) +
+  geom_line(aes(y=Puntos_2002, colour = "2002"))+
+  geom_line(aes(y=Puntos_2006, colour = "2006"))+
+  geom_line(aes(y=Puntos_2010, colour = "2010")) +
+  geom_line(aes(y=Puntos_2014, colour = "2014")) +
+  geom_line(aes(y=Puntos_2018, colour = "2018")) +
+  geom_line(aes(y=Puntos_2022, colour = "2022")) +
+  labs(x = "Partidos", y = "Puntos") +
+  scale_x_continuous(limits=c(1, 18), breaks=seq(1,18,by=1)) + 
+  scale_y_continuous(limits=c(0, 28), breaks=seq(0,28,by=2)) +
+  theme(legend.title = element_blank())
+  
 
 
 
@@ -66,9 +71,26 @@ ggplot(data_futbol_var, aes(x = Partidos)) +
 
 ---
 
-# Ejemplo 2
+# Ejemplo 2:  Perú ha estado muy cerca de clasificar cuando ha tenido por lo menos 17 puntos faltando 4 partidos. 
 
-```{r example2, echo=FALSE, message=FALSE, warning=FALSE}
+```{r example2, echo=FALSE, message=FALSE, warning=FALSE,  fig.width=12,fig.height=5}
+
+ggplot(data_futbol_var, aes(x = Partidos)) +
+  geom_line(aes(y =Puntos_98, colour = "1998")) +
+  geom_line(aes(y=Puntos_2002, colour = "2002"))+
+  geom_line(aes(y=Puntos_2006, colour = "2006"))+
+  geom_line(aes(y=Puntos_2010, colour = "2010")) +
+  geom_line(aes(y=Puntos_2014, colour = "2014")) +
+  geom_line(aes(y=Puntos_2018, colour = "2018")) +
+  geom_line(aes(y=Puntos_2022, colour = "2022")) +
+  labs(x = "Partidos", y = "Puntos") +
+   geom_hline(aes(yintercept=16), linetype="dashed")+
+  scale_x_continuous(limits=c(1, 18), breaks=seq(1,18,by=1)) + 
+  scale_y_continuous(limits=c(0, 28), breaks=seq(0,28,by=2)) +
+  theme(panel.background = element_blank(),legend.title = element_blank()) +
+  ggtitle("Peru tiene 17 puntos en las eliminatorias 2022 casi la misma cantidad de puntos que en la del 2018 cuando clasificó")
+
+#knitr::opts_chunk$set(fig.width=unit(12,"cm"), fig.height=unit(5,"cm"))  
 
 
 ```
