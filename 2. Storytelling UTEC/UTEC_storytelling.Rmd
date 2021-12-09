@@ -32,7 +32,7 @@ output: xaringan::moon_reader
 - Lógica deductiva
 
 ---
-.pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
 # El mayor obstáculo que hay que pasar es introducir el mensaje en una audiencia que no suele escuchar
 
