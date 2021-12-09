@@ -7,20 +7,23 @@ output: xaringan::moon_reader
 .pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
 
+# El storytelling nos permite llevar nuestros puntos claros y crear valor
 
-# Por qué es importante el storytelling?
+## Además nos permite: 
 
-- Para poder hacer llegar el mensaje
+- Compartir un mensaje claro
 
-- Para poder tomar decisiones
+- Tomar decisiones
 
-- Para poder hacer que los insights y la data den valor al negocio
+- Crear valor con los resultados
 
 ---
 
 .pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
-# Secuencias de una historia
+# Storytelling con data es una intersección entre narrar una historia y la lógica de pensamiento
+
+## Los componentes de una historia y la forma cómo pensamos se divide en: 
 
 - Introducción, cuerpo y conclusión
 
@@ -31,7 +34,9 @@ output: xaringan::moon_reader
 ---
 .pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
-# Retos de contar una historia con datos
+# El mayor obstáculo que hay que pasar es introducir el mensaje en una audiencia que no suele escuchar
+
+## Las mayores dificultades son las siguientes:
 
 - Poco tiempo para presentar  
 
@@ -42,7 +47,9 @@ output: xaringan::moon_reader
 ---
 .pull-right[<img src="UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
-# Trucos para visualizar
+# La forma de cómo presentar las láminas son un complemento para aterrizar el mensaje 
+
+## Algunos trucos son:
 
 - Efecto de primacía y resencia
 
