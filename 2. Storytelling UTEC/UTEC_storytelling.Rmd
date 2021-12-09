@@ -1,0 +1,33 @@
+---
+title: "UTEC storytelling"
+author: Juan Carlos Saravia
+output: xaringan::moon_reader
+---
+# Por qué es importante el storytelling?
+
+- Para poder hacer llegar el mensaje
+
+- Para poder tomar decisiones
+
+- Para poder hacer que los insights y la data den valor al negocio
+
+---
+# Secuencias de una historia
+
+- Introducción, cuerpo y conclusión
+
+- Lógica inductiva
+
+- Lógica deductiva
+
+---
+# Retos de contar una historia con datos
+
+- Poco tiempo para presentar  
+
+- Procesamiento de la información de los stakeholders
+
+- 
+
+
+---
