@@ -1,0 +1,44 @@
+---
+title: "Storytelling with Data"
+author: "Juan Carlos Saravia"
+output: beamer_presentation
+---
+
+
+## Objetivo
+
+Presentar una propuesta de plan de trabajo para reforzar las competencias de storytelling utilizando data del equipo de Marketing de Atlantic City. 
+
+---
+
+
+
+## Plan de trabajo
+
+Para preparar las sesiones se requieren de 10 horas para armar los materiales del curso, estos incluyen:
+
+ - Slides con teoría
+ - Gráficos 
+
+### Detalle de las sesiones
+
+- Dos sesiones de 6 horas en dos días: total 12 horas. 
+- Metodología: teórico-práctico
+- Presentación virtual y puede ser presencial de ser requerido
+
+## Detalle de plan de trabajo
+
+
+|                  |Horas| Valor| 
+|:-----------------|----:|---:| 
+|Qué es Storytelling     | 3|   900| 
+|Trucos del Storytelling | 3|   900| 
+|Stories and Data        | 4|   1200| 
+|El uso de colores       | 3|   900| 
+|El uso de gráficas      | 5|   1500| 
+|Historias con múltiples variables | 2|   600| 
+
+
+### Presupuesto
+
+Valor total: 6000 Nuevos Soles
