@@ -37,8 +37,20 @@ Para preparar las sesiones se requieren de 10 horas para armar los materiales de
 |El uso de colores       | 3|   900| 
 |El uso de gráficas      | 5|   1500| 
 |Historias con múltiples variables | 2|   600| 
+|Presencial | -|   500| 
+
 
 
 ### Presupuesto
 
-Valor total: 6000 Nuevos Soles
+- Valor total: 6500 Nuevos Soles 
+- **Nota**: esto no incluye IGV. 
+
+### Fechas 
+
+Jueves 07 de Julio	8:00 - 14:00
+Jueves 14 de Julio	8:00 - 14:00
+
+
+
+
