@@ -62,7 +62,7 @@ output: xaringan::moon_reader
 
 ## Ejemplo
 
-.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Example_1.png" style="width:100%; margin-right: 5px">]
+.pull-center[<img src="https://github.com/jsaraviadrago/Markdown-presentations/blob/main/2.%20Storytelling%20UTEC/GRAPH_marathon.png" style="width:100%; margin-right: 5px">]
 
 ---
 .pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png?token=GHSAT0AAAAAABS7NPH5FG4RUBZEAGFXF43IYVMSLPA" style="width:70%; margin-right: 5px">]
