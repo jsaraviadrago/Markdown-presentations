@@ -1,0 +1,75 @@
+---
+title: "Sesion 2 - T.TEST & ANOVA"
+author: "Juan Carlos Saravia"
+date: '2022-06-06'
+output: pdf_document
+---
+
+# Sesion 2
+
+- Cargar las bases de dtos y juntarlas. 
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(readxl)
+
+# Base de datos items
+data_COMU_items <- read_excel("/Users/jsaraviadrago/Documents/Pendientes/UTP/CALEDU/CON_v2.xlsx",
+                        sheet = 1)
+
+# Base de datos completa
+data_COMU_todo <- read_excel("//Users/jsaraviadrago/Documents/Pendientes/UTP/CALEDU/M19_CON_BD.xlsx.xlsx", 
+                        sheet = 1)
+
+# Selecccionar items de la prueba
+data_COMU_todo <- data_COMU_todo |> 
+  select(ID, CODIGO, CICLO_REL, SEXO, SEDE,
+         ASISTENCIA, ESTUDIOS, TRABAJO, RELACION)
+
+# Juntar ambas tablas en una
+data_COMU_todo <- data.frame(data_COMU_todo,
+                             data_COMU_items)
+
+
+```
+
+## Manipular la información 
+
+- Armar los puntajes para ejecutar el analisis. 
+- Recodificar los valores de 0 a vacio para poder hacer la t-student.
+
+
+
+```{r cars}
+# Crear el puntaje total
+data_COMU_todo$puntaje_total <- data_COMU_todo$CON01+ data_COMU_todo$CON02+ 
+  data_COMU_todo$CON03+ data_COMU_todo$CON04+ 
+  data_COMU_todo$CON05+ data_COMU_todo$CON06+ data_COMU_todo$CON07+
+  data_COMU_todo$CON08+ data_COMU_todo$CON09+ data_COMU_todo$CON10+ 
+  data_COMU_todo$CON11+ data_COMU_todo$CON12+ data_COMU_todo$CON13+ 
+  data_COMU_todo$CON14+ data_COMU_todo$CON15+ data_COMU_todo$CON16+ data_COMU_todo$CON17+
+  data_COMU_todo$CON18+ data_COMU_todo$CON19+ data_COMU_todo$CON20+ data_COMU_todo$CON21
+
+# recodificar 0 to NA
+data_COMU_todo$SEXO[data_COMU_todo$SEXO == 0] <- NA
+```
+
+## Armar los analisis para la t-student y el ANOVA
+
+
+
+```{r pressure, echo=FALSE}
+
+
+# T-test t.test(y~x)
+t.test(data_COMU_todo$puntaje_total~data_COMU_todo$SEXO)
+
+# Anova aov(y~x)
+model1 <- aov(data_COMU_todo$puntaje_total~factor(data_COMU_todo$SEDE),
+              data = data_COMU_todo)
+summary(model1)
+
+TukeyHSD(model1)
+```
+
+

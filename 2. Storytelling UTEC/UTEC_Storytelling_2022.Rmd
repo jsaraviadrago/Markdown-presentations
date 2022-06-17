@@ -1,0 +1,84 @@
+---
+title: "Comunicación de resultados y visualización de Datos"
+author: Juan Carlos Saravia
+output: xaringan::moon_reader
+
+---
+.pull-right[<img src="https://github.com/jsaraviadrago/Markdown-presentations/blob/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+
+# El storytelling nos permite llevar nuestros puntos claros y crear valor
+
+## Además nos permite: 
+
+- Compartir un mensaje claro
+
+- Tomar decisiones
+
+- Crear valor con los resultados
+
+---
+
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png?token=GHSAT0AAAAAABS7NPH5FG4RUBZEAGFXF43IYVMSLPA" style="width:70%; margin-right: 5px">]
+
+# Storytelling con data es una intersección entre narrar una historia y la lógica de pensamiento
+
+## Los componentes de una historia y la forma cómo pensamos se divide en: 
+
+- Introducción, cuerpo y conclusión
+
+- Lógica inductiva
+
+- Lógica deductiva
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png?token=GHSAT0AAAAAABS7NPH5FG4RUBZEAGFXF43IYVMSLPA" style="width:70%; margin-right: 5px">]
+
+# El mayor obstáculo que hay que pasar es introducir el mensaje en una audiencia que no suele escuchar
+
+## Las mayores dificultades son las siguientes:
+
+- Poco tiempo para presentar  
+
+- Procesamiento de la información de los stakeholders (Estructura de pirámide)
+
+- Mensaje poco claro
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png?token=GHSAT0AAAAAABS7NPH5FG4RUBZEAGFXF43IYVMSLPA" style="width:70%; margin-right: 5px">]
+
+# La forma de cómo presentar las láminas son un complemento para aterrizar el mensaje 
+
+## Algunos trucos son:
+
+- Efecto de primacía y resencia
+
+- Lectura de izquierda a derecha
+
+- Decir el mensaje principal primero
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png?token=GHSAT0AAAAAABS7NPH5FG4RUBZEAGFXF43IYVMSLPA" style="width:70%; margin-right: 5px">]
+
+## Ejemplo
+
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Example_1.png" style="width:100%; margin-right: 5px">]
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png?token=GHSAT0AAAAAABS7NPH5FG4RUBZEAGFXF43IYVMSLPA" style="width:70%; margin-right: 5px">]
+
+
+
+
+---
+# Preguntas?
+.pull-center[<img src="https://github.com/jsaraviadrago/Markdown-presentations/blob/main/2.%20Storytelling%20UTEC/Preguntas.jpg" style="width:100%; margin-right: 5px">]
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png?token=GHSAT0AAAAAABS7NPH5FG4RUBZEAGFXF43IYVMSLPA" style="width:70%; margin-right: 5px">]
+# Contactos 
+
+### [Linkedin: CV](https://www.linkedin.com/in/jcsaraviadrago/)
+
+### [Blog: Matemáticamente posible](https://matematicamenteposible.net)
+
+### [Webpage: Portafolio y proyectos](https://jsaraviadrago.com)
