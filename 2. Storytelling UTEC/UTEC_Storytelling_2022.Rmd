@@ -65,7 +65,12 @@ output: xaringan::moon_reader
 .pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/GRAPH_marathon.png" style="width:100%; margin-right: 5px">]
 
 ---
+
 .pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+# Ejemplo 2: Mientras más práctica tienes mejor tu tiempo 
+
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/GRAPH_marathon.png" style="width:100%; margin-right: 5px">]
 
 
 ---
