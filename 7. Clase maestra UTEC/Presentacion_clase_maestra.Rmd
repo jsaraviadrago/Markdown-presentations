@@ -4,75 +4,96 @@ author: Juan Carlos Saravia
 output: xaringan::moon_reader
 
 ---
-.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
 
-# El storytelling nos permite llevar nuestros puntos claros y crear valor
+# ¿Qué es la análitica avanzada en fútbol?
 
-## Además nos permite: 
-
-- Compartir un mensaje claro
-
-- Tomar decisiones
-
-- Crear valor con los resultados
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/data-1200x900-cropped.jpg" style="width:100%; margin-right: 5px">]
 
 ---
 
-.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+# ¿Es muy diferente de varias empresas?
 
-# Storytelling con data es una intersección entre narrar una historia y la lógica de pensamiento
-
-## Los componentes de una historia y la forma cómo pensamos se divide en: 
-
-- Introducción, cuerpo y conclusión
-
-- Lógica inductiva
-
-- Lógica deductiva
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/auspiciadores_antiguos.jpg" style="width:100%; margin-right: 5px">]
 
 ---
-.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+#  ¿Cuál es el modelo de negocio?
 
-# El mayor obstáculo que hay que pasar es introducir el mensaje en una audiencia que no suele escuchar
+- Consultoria
 
-## Las mayores dificultades son las siguientes:
+- SaaS
 
-- Poco tiempo para presentar  
+- Data
 
-- Procesamiento de la información de los stakeholders (Estructura de pirámide)
+- Presencia en medios periodísticos
 
-- Mensaje poco claro
+.pull-left[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/Driblab.png" style="width:70%; height:50%; margin-right: 5px">]
+
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/New_Stats_Perform_Logo_2021.png" style="width:70%; margin-right: 30px">]
+
+.pull-left[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/RW5DcVu1_400x400.png" style="width:70%; margin-right: 5px">]
+---
+
+# ¿Cómo funciona entonces la análitica avanzada?
+
+### Obtener indicadores para entender y predecir partidos:
+
+- xG
+
+- xT
+
+- PPDA
+
+- Verticalidad
 
 ---
-.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+#  La industria sigue apalancada por el xG que está en constante cambio
 
-# La forma de cómo presentar las láminas son un complemento para aterrizar el mensaje 
 
-## Algunos trucos son:
 
-- Efecto de primacía y resencia
 
-- Lectura de izquierda a derecha
 
-- Decir el mensaje pricincipal primero
+
 
 ---
-.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+#  En todo momento se intenta introducir mayor cantidad de variables a los modelos. 
 
-# Ejemplo 1: Resultados de Perú en eliminatorias
 
-.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Example_1.png" style="width:100%; margin-right: 5px">]
+
+
 
 ---
-.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
 
-## Ejemplo 2:  Perú ha estado muy cerca de clasificar cuando ha tenido por lo menos 17 puntos faltando 4 partidos 
 
-.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Example_2.png" style="width:100%; margin-right: 5px">]
+# Lo más importante es intentar entender y predecir los fenómenos de fútbol
+
+
+
+---
+
+
+# ¿Algunos retos de la industria?
+
+- En Latinoamérica el creer en las soluciones analíticas fuera de la subjetividad
+
+- El status quo de cómo siempre ha sido la industria
+
+- La dificultad de alinear los objetivos de la organización con la solución analítica. 
+
+---
+# ¿Qué depara el futuro?
+
+- Perfiles: Entrenador -> especialista de datos -> programador
+
+- Tecnología: más allá de los eventos el tracking de jugadores. 
+
 ---
 # Preguntas?
-.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Preguntas.jpg" style="width:100%; margin-right: 5px">]
+
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/VX7YNPTMJJJUHHA4N5HNLCUPAY.jpg" style="width:100%; margin-right: 5px">]
+
+
+
 ---
 .pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Automating-Boredom/master/Signatures/MAT_POSIBLE_General_negro.png" style="width:70%; margin-right: 5px">]
 
