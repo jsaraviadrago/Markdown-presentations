@@ -1,0 +1,97 @@
+---
+title: "Analítica avanzada en fútbol ¿Cómo se diferencia con otras industrias?"
+author: Juan Carlos Saravia
+output: xaringan::moon_reader
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+
+# El storytelling nos permite llevar nuestros puntos claros y crear valor
+
+## Además nos permite: 
+
+- Compartir un mensaje claro
+
+- Tomar decisiones
+
+- Crear valor con los resultados
+
+---
+
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+# Storytelling con data es una intersección entre narrar una historia y la lógica de pensamiento
+
+## Los componentes de una historia y la forma cómo pensamos se divide en: 
+
+- Introducción, cuerpo y conclusión
+
+- Lógica inductiva
+
+- Lógica deductiva
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+# El mayor obstáculo que hay que pasar es introducir el mensaje en una audiencia que no suele escuchar
+
+## Las mayores dificultades son las siguientes:
+
+- Poco tiempo para presentar  
+
+- Procesamiento de la información de los stakeholders (Estructura de pirámide)
+
+- Mensaje poco claro
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+# La forma de cómo presentar las láminas son un complemento para aterrizar el mensaje 
+
+## Algunos trucos son:
+
+- Efecto de primacía y resencia
+
+- Lectura de izquierda a derecha
+
+- Decir el mensaje pricincipal primero
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+# Ejemplo 1: Resultados de Perú en eliminatorias
+
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Example_1.png" style="width:100%; margin-right: 5px">]
+
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/UTEC_2021.png" style="width:70%; margin-right: 5px">]
+
+## Ejemplo 2:  Perú ha estado muy cerca de clasificar cuando ha tenido por lo menos 17 puntos faltando 4 partidos 
+
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Example_2.png" style="width:100%; margin-right: 5px">]
+---
+# Preguntas?
+.pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/2.%20Storytelling%20UTEC/Preguntas.jpg" style="width:100%; margin-right: 5px">]
+---
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Automating-Boredom/master/Signatures/MAT_POSIBLE_General_negro.png" style="width:70%; margin-right: 5px">]
+
+
+
+
+
+# Contactos 
+
+### [Linkedin](https://www.linkedin.com/in/jcsaraviadrago/)
+
+### [Webpage: Portafolio y proyectos](https://jsaraviadrago.com)
+
+### [Blog: Matemáticamente posible](https://matematicamenteposible.net)
+
+### TiKtok: futbol.mateposible
+
+### Instagram: mateposible
+
+
+
+
