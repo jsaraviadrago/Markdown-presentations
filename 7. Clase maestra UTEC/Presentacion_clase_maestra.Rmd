@@ -6,15 +6,37 @@ output: xaringan::moon_reader
 ---
 
 
-# ¿Qué es la análitica avanzada en fútbol?
+# ¿Qué es la análitica avanzada en fútbol? 
 
 .pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/data-1200x900-cropped.jpg" style="width:100%; margin-right: 5px">]
 
 ---
+# El uso de de datos tiene más años de los que creemos
 
-# ¿Es muy diferente de varias empresas?
+- Charles Reep
+
+- Valeriy Lobanosvkyi
+
+- El fútbol cuantitativo de la Unión Soviética: 1958
+
+---
+
+
+# ¿Es muy diferente de varias empresas? Sí y no
 
 .pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/auspiciadores_antiguos.jpg" style="width:100%; margin-right: 5px">]
+
+---
+# Algunas aplicaciones de analítica de fútbol
+
+- Scouting inteligente
+
+- Analysis de performance de jugadores
+
+- Desarrollo de jugadores
+
+- Prevención de lesiones y rehabilitación. 
+
 
 ---
 #  ¿Cuál es el modelo de negocio?
@@ -24,8 +46,6 @@ output: xaringan::moon_reader
 - SaaS
 
 - Data
-
-- Presencia en medios periodísticos
 
 .pull-left[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/Driblab.png" style="width:70%; height:50%; margin-right: 5px">]
 
@@ -80,14 +100,25 @@ output: xaringan::moon_reader
 
 - La dificultad de alinear los objetivos de la organización con la solución analítica. 
 
+- Lo vago de la terminología en fútbol. 
+
+- Hacer que la data sea normal y se integre a lo largo de la organización. 
+
 ---
 # ¿Qué depara el futuro?
 
-- Perfiles: Entrenador -> especialista de datos -> programador
+- Perfiles: Entrenador -> especialista de datos -> programador. 
 
 - Tecnología: más allá de los eventos el tracking de jugadores. 
 
+- Modelos más complejos: Pases o Zonas.  
+
+- Integración de computer vision y tracking: orientación del cuerpo y el equipo como una unidad. 
+
+- Perfeccionar los Saas
+
 ---
+
 # Preguntas?
 
 .pull-center[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/VX7YNPTMJJJUHHA4N5HNLCUPAY.jpg" style="width:100%; margin-right: 5px">]
