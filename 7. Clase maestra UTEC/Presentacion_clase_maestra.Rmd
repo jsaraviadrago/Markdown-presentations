@@ -13,12 +13,9 @@ output: xaringan::moon_reader
 ---
 # El uso de de datos tiene más años de los que creemos
 
-- Charles Reep
+.pull-left[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/Sports%2BPerformance%2BAnalysis%2B-%2BCharles%2BReep.jpeg" style="width:70%; height:50%; margin-right: 5px">]
 
-- Valeriy Lobanosvkyi
-
-- El fútbol cuantitativo de la Unión Soviética: 1958
-
+.pull-right[<img src="https://raw.githubusercontent.com/jsaraviadrago/Markdown-presentations/main/7.%20Clase%20maestra%20UTEC/5.jpg.webp" style="width:100%; height:50%; margin-right: 30px">]
 ---
 
 
@@ -70,7 +67,7 @@ output: xaringan::moon_reader
 #  La industria sigue apalancada por el xG que está en constante cambio
 
 
-
+.pull-center[<img src="https://github.com/jsaraviadrago/Markdown-presentations/blob/main/7.%20Clase%20maestra%20UTEC/niort_havre_example4.gif?raw=true" style="width:100%; margin-right: 0px">]
 
 
 
@@ -79,7 +76,7 @@ output: xaringan::moon_reader
 #  En todo momento se intenta introducir mayor cantidad de variables a los modelos. 
 
 
-
+.pull-center[<img src="https://github.com/jsaraviadrago/Markdown-presentations/blob/main/7.%20Clase%20maestra%20UTEC/caen_montpellier_example1.gif?raw=true" style="width:100%; margin-right: 0px">]
 
 
 ---
@@ -87,6 +84,7 @@ output: xaringan::moon_reader
 
 # Lo más importante es intentar entender y predecir los fenómenos de fútbol
 
+.pull-center[<img src="https://github.com/jsaraviadrago/Markdown-presentations/blob/main/7.%20Clase%20maestra%20UTEC/kp.gif?raw=true" style="width:100%; margin-right: 0px">]
 
 
 ---
