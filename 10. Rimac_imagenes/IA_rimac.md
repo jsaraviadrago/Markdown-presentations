@@ -34,5 +34,12 @@ En la actualización de la información ¿Es realmente necesario trabajarlo en s
 ¿La actualización del modelo tendría que ser en batch, mini batch o streaming?  
 ¿Es realmente necesario utilizar un modelo ad hoc o se puede trabajar con un modelo que ya está pre entrenado?
 
+- Definición de los KPIS
 
+- Es necesario definir un gold standard para ver cuándo es que realmente es un fraude o no. 
+
+__Por ejemplo:__
+
+- Definir operacionalmente cuándo es que el tono de la voz es sospechoso y cuándo no. 
+- Hacer un MVP y probbar cuánto es que aciertan las reglas de negocio y modelo que se está utilizando. 
 
