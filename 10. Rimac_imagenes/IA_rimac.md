@@ -1,13 +1,12 @@
 # Casos de uso inteligencia artificial Rimac
 
-
-## Problema de negocio
-
 Rimac la compañía de seguros tiene un reto interesante en utilizar la información que se genera de las comunicaciones de los clientes así como las imágenes que se generan de tratamientos médicos. 
+
+## Casos de uso
 
 Este gran volumen de información es posible traducirlo en dos casos de uso específicos:
 
-1. Detección de conductas sosprechosas y potencialmente fraudulentas según la forma de hablar del cliente durante la llamada telefónica en un siniestro. 
+1. Detección de conductas sospechosas y potencialmente fraudulentas según la forma de hablar del cliente durante la llamada telefónica en un siniestro. 
 
 2. Detección de potenciales patologías según las imágenes radiográficas de los pacientes. 
 
@@ -17,6 +16,13 @@ Este gran volumen de información es posible traducirlo en dos casos de uso espe
 ### Retos
 
 1. Guardar la información
+2. Procesar la información
+3. Controlar el billing
+
+## Caso de uso 2:
+
+1. Calidad de las imágenes
+2. 
 
 
 # Puntos a considerar
