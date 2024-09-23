@@ -32,7 +32,7 @@ Este gran volumen de información es posible traducirlo en dos casos de uso espe
 ¿Es necesario tenerlo en formato audio o se podría transformar de forma tabular?    
 En la actualización de la información ¿Es realmente necesario trabajarlo en streaming o con batch es suficiente?
 ¿La actualización del modelo tendría que ser en batch, mini batch o streaming?  
-¿Es realmente utilizar un modelo ad hoc o se puede trabajar con un modelo que ya está pre entrenado?
+¿Es realmente necesario utilizar un modelo ad hoc o se puede trabajar con un modelo que ya está pre entrenado?
 
 
 
