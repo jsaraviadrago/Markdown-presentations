@@ -9,7 +9,30 @@ Este gran volumen de información es posible traducirlo en dos casos de uso espe
 
 1. Detección de conductas sosprechosas y potencialmente fraudulentas según la forma de hablar del cliente durante la llamada telefónica en un siniestro. 
 
-2. Detección de potenciales 
+2. Detección de potenciales patologías según las imágenes radiográficas de los pacientes. 
 
-Rimac tiene un gran volumen de información de tipo no estructurada en audios e imágenes.   
+
+## Caso de uso 1:
+
+### Retos
+
+1. Guardar la información
+
+
+# Puntos a considerar
+
+## Caso de uso de audio
+
+1. Crear una prueba de concepto con Google para estimar los costos del caso de uso. Los retos en general están basados en dos puntos específicos:
+
+- Almacenamiento y procesamiento de los audios:
+
+¿se necesita todo el audio? 
+¿se puede reducir la calidad del mismo para reducir el tamaño? 
+¿Es necesario tenerlo en formato audio o se podría transformar de forma tabular?    
+En la actualización de la información ¿Es realmente necesario trabajarlo en streaming o con batch es suficiente?
+¿La actualización del modelo tendría que ser en batch, mini batch o streaming?  
+¿Es realmente utilizar un modelo ad hoc o se puede trabajar con un modelo que ya está pre entrenado?
+
+
 
