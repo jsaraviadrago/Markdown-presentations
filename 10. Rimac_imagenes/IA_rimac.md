@@ -1,6 +1,8 @@
+
 # Casos de uso inteligencia artificial Rimac
 
 Rimac la compañía de seguros tiene un reto interesante en utilizar la información que se genera de las comunicaciones de los clientes así como las imágenes que se generan de tratamientos médicos. 
+
 
 ## Casos de uso
 
